@@ -7,7 +7,7 @@ html, body{
         line-height: 1.5rem;
     }
 }
-.two-columns-img-right{
+.two-columns-img-right-two{
     padding: 0;
     display: grid;
     .left{
@@ -53,7 +53,7 @@ html, body{
     }
 }
 @media screen and (min-width: 800px){
-    .two-columns-img-right{
+    .two-columns-img-right-two{
         display: grid;
         grid-template-columns: 50% 50%;
         justify-content: center;
@@ -68,7 +68,7 @@ html, body{
     }
 }
 @media screen and (min-width: 1024px){
-    .two-columns-img-right{
+    .two-columns-img-right-two{
         .left{
             .text{
                 width: 60%;
